@@ -16,27 +16,52 @@ const Footer = () => {
           <h3>Social</h3>
           <ul className="links-sidebar">
             <li className="link-social">
-              <a href="/" target="_blank" className="social-links">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-links"
+              >
                 twitter
               </a>
             </li>
             <li className="link-social">
-              <a href="/" target="_blank" className="social-links">
+              <a
+                href="https://discord.gg/WnXCSBGUBh"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-links"
+              >
                 discord
               </a>
             </li>
             <li className="link-social">
-              <a href="/" target="_blank" className="social-links">
+              <a
+                href="https://youtube.com/channel/UCTkWeEcFMf_pPWuFZRWJbow"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-links"
+              >
                 youtube
               </a>
             </li>
             <li className="link-social">
-              <a href="/" target="_blank" className="social-links">
+              <a
+                href="https://trakeresport.fr/static/img/logo_twitch_bpanc.png"
+                target="_blank"
+                className="social-links"
+                rel="noopener noreferrer"
+              >
                 twitch
               </a>
             </li>
             <li className="link-social">
-              <a href="/" target="_blank" className="social-links">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-links"
+              >
                 instgram
               </a>
             </li>
@@ -54,7 +79,8 @@ const Footer = () => {
       <div className="line"></div>
       <div className="copyright">
         <p>
-          Copyright &#169; 2022 All rights reserved | Web design by R1 Esport
+          Copyright &#169; 2022 All rights reserved <br /> Web design by R1
+          ESPORT
         </p>
       </div>
     </div>
