@@ -1,0 +1,13 @@
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+}
+.error-container {
+  text-align: center;
+  text-transform: capitalize;
+}
+.error {
+  margin-top: 3rem;
+}

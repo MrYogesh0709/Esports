@@ -1,13 +1,14 @@
 import React from "react";
-import logo from "../images/logo.png";
+import "./navbar.css";
+import logo from "../../images/logo.png";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { useGlobalContext } from "../context/context";
+import { useGlobalContext } from "../../context/context";
 
 const Navbar = () => {
   const { openSidebar } = useGlobalContext();
-  const data = useGlobalContext();
-  console.log(data);
+  // const data = useGlobalContext();
+  // console.log(data);
   return (
     <nav className="nav">
       <div className="nav-center">
@@ -25,11 +26,21 @@ const Navbar = () => {
           </button>
         </div>
         <ul className="nav-links">
-          <li className="link-btn">welcome</li>
-          <li className="link-btn">team</li>
-          <li className="link-btn">news</li>
-          <li className="link-btn">tournaments</li>
-          <li className="link-btn">contact</li>
+          <Link to="/">
+            <li className="link-btn">welcome</li>
+          </Link>
+          <Link to="/team">
+            <li className="link-btn">team</li>
+          </Link>
+          <Link to="/news">
+            <li className="link-btn">news</li>
+          </Link>
+          <Link to="/recruitment">
+            <li className="link-btn">recruitment</li>
+          </Link>
+          <Link to="/contact">
+            <li className="link-btn">contact</li>
+          </Link>
         </ul>
       </div>
     </nav>
