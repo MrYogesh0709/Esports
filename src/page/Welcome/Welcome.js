@@ -18,22 +18,20 @@ const Welcome = () => {
           <div className="head">
             <h1>Presentation</h1>
             <p>
-              <b>R1 ESport</b>
-              is an esports association, founded on September 15, 2017, by an
-              enthusiast who wanted to make his dream come true. His goal is to
-              create a <b>big family</b> with one goal: to be the <b> best !</b>{" "}
-              To do this, he knew how to surround himself with trusted people
-              and <b>golden</b> community in order to achieve his goal.
+              Fondée le 8 janvier 2022 par Ethan (tatane), R1 ESPORT a été conçu
+              afin de s’imposer dans le monde E-sportif.
               <br />
-              <br /> Present on different games (Fortnite, League of Legend and
-              Valorant), the traker sets up events that are always more
-              different from each other in order to entertain the world and
-              democratize esports. The club is pushing for progress and does not
-              intend to stop there. <br />
-              <br /> In 2022 everything changes, with new partnerships and
-              contacts, Traker is moving up a gear by recruiting the best
-              amateur and professional players in everyday life as well as
-              within its staff.
+              <br /> La mission première de la structure est d’offrir une
+              plateforme de partage pour tous les membres et partenaires afin de
+              promouvoir l’eSport. Nous mettons un point d’honneur à accompagner
+              nos équipes tout au long de leur développement afin d’assurer des
+              performances optimales tout au long de leur parcours chez nous.{" "}
+              <br />
+              <br /> R1 souhaite être un tremplin pour les talents de demain. La
+              structure désire offrir une plateforme aux passionnés de jeux
+              vidéo afin qu’ils puissent s’épanouir et se développer dans
+              l’eSport tout en étant soutenus par une organisation
+              professionnelle.
             </p>
           </div>
         </div>
