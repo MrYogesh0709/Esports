@@ -52,10 +52,11 @@
   font-size: medium;
   margin: 1rem 0;
   color: black;
+  transition: var(--transition);
 }
 
-.link-sidebar:active:hover {
-  color: blue;
+.link-sidebar:hover {
+  color: coral;
 }
 @media screen and (min-width: 800px) {
   .sidebar-wrapper {

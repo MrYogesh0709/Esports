@@ -67,5 +67,9 @@
     letter-spacing: 1px;
     margin-left: 4rem;
     flex: auto;
+    transition: var(--transition);
+  }
+  .link-btn:hover {
+    color: var(--clr-primary-5);
   }
 }

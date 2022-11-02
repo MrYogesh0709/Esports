@@ -18,7 +18,7 @@ const Welcome = () => {
           <div className="head">
             <h1>Presentation</h1>
             <p>
-              <b>Traker e Sport </b>
+              <b>R1 ESport</b>
               is an esports association, founded on September 15, 2017, by an
               enthusiast who wanted to make his dream come true. His goal is to
               create a <b>big family</b> with one goal: to be the <b> best !</b>{" "}
@@ -38,7 +38,6 @@ const Welcome = () => {
           </div>
         </div>
       </div>
-
       <div className="box">
         <h2>FOLLOW US</h2>
         <p>ON</p>

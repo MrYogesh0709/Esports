@@ -45,9 +45,10 @@ ul {
 }
 .social-links {
   color: white;
+  transition: var(--transition);
 }
 .social-links:hover {
-  color: blue;
+  color: var(--clr-primary-5);
 }
 .social-links:active {
   color: green;
