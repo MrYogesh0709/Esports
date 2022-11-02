@@ -9,7 +9,7 @@ const News = () => {
     <>
       <Navbar />
       <Sidebar />
-      <main>
+      <main className="news">
         <div className="container">
           <h1>Coming soon...</h1>
         </div>
