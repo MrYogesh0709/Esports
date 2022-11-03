@@ -23,10 +23,10 @@ const Recruitment = () => {
           />
         </div>
         <div className="c2">
-          <h2>Traker Halloween's Cup 🎃</h2>
+          <h2>Traker Halloween's Cup </h2>
           <p className="c3">
             Halloween is the holiday of fear... At TRAKER, it's a holiday that
-            allows us to get closer to you, the community 🤘
+            allows us to get closer to you, the community
             <br />
             <br />
             On October 30, 2022, the Traker Halloween's Cup will take place , a
