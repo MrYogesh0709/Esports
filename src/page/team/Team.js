@@ -9,8 +9,8 @@ const Team = () => {
     <>
       <Navbar />
       <Sidebar />
-      <section className="recuirment">
-        <div className="recuirment-container">
+      <section className="team">
+        <div className="team-container">
           <h1>Our Team</h1>
         </div>
       </section>
@@ -64,7 +64,7 @@ const Team = () => {
               <div className="p1line2"></div>
               <div className="p1links">
                 <a
-                  href="https://twitter.com/r1_tatane?s=21&t=Z4qcMPOo1IHuqthGOAxVlw"
+                  href="https://twitter.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -79,6 +79,44 @@ const Team = () => {
           </div>
         </div>
       </div>
+      <div className="fortnite">
+        <h2>Fortnite</h2>
+        <div className="fortnite-all">
+          <div className="p1">
+            <div className="p1name">R1 tatane</div>
+            <div className="p1line"></div>
+            <div className="p1image">
+              <img src="" alt="R1 tatane" className="team-image" />
+            </div>
+            <div className="p1line"></div>
+            <div className="p1info">
+              Je me nomme Ethan 16 ans fondateur et président R1 ESPORT.
+              Actuellement en formation système numérique, je compte à l’avenir
+              développer au maximum mon savoir dans le vaste domaine de
+              l’informatique. Cela fait maintenant 3 ans que je prends part à
+              différents projets au sein de l'eSport. Que ce soit en tant que
+              joueur, manager ou bien directeur, j’ai pu acquérir plusieurs
+              expériences au fur et à mesure de ma progression et je compte bien
+              mettre à profit mon expérience via le projet R1.
+            </div>
+            <div className="p1line2"></div>
+            <div className="p1links">
+              <a
+                href="https://twitter.com/r1_tatane?s=21&t=Z4qcMPOo1IHuqthGOAxVlw"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_twitter.png"
+                  alt="twitter"
+                  className="logo-reseaux"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <Footer />
     </>
   );
