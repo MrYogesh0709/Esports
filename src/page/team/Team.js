@@ -129,7 +129,7 @@ const Team = () => {
             <div className="p1name">R1 Lose</div>
             <div className="p1line"></div>
             <div className="p1image">
-              <img src="" alt="R1 tatane" className="team-image" />
+              <img src={lose} alt="R1 tatane" className="team-image" />
             </div>
             <div className="p1line"></div>
             <div className="p1info">
@@ -214,7 +214,7 @@ const Team = () => {
             <div className="p1name">R1 Gifted</div>
             <div className="p1line"></div>
             <div className="p1image">
-              <img src={lose} alt="R1 tatane" className="team-image" />
+              <img src="" alt="R1 tatane" className="team-image" />
             </div>
             <div className="p1line"></div>
             <div className="p1info">
