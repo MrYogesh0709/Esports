@@ -10,6 +10,7 @@ const Welcome = () => {
     <>
       <Navbar />
       <Sidebar />
+
       <div className="img">
         <img src={r1} alt="R1 Esports" className="img" />
       </div>

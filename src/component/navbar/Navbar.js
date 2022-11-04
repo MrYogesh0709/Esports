@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./navbar.css";
 import logo from "../../images/logo.png";
 import { FaBars } from "react-icons/fa";
@@ -6,9 +6,22 @@ import { Link } from "react-router-dom";
 import { useGlobalContext } from "../../context/context";
 
 const Navbar = () => {
-  const { openSidebar } = useGlobalContext();
+  const { openSidebar, setIsSidebarOpen } = useGlobalContext();
   // const data = useGlobalContext();
   // console.log(data);
+  let menuRef = useRef();
+  useEffect(() => {
+    let handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setIsSidebarOpen(false);
+        console.log(menuRef.current);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  }, []);
   return (
     <nav className="nav">
       <div className="nav-center">
@@ -21,7 +34,11 @@ const Navbar = () => {
               className="nav-logo"
             />
           </Link>
-          <button className="btn toggle-btn" onClick={openSidebar}>
+          <button
+            className="btn toggle-btn"
+            onClick={openSidebar}
+            ref={menuRef}
+          >
             <FaBars />
           </button>
         </div>
