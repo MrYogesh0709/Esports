@@ -5,6 +5,12 @@ import Navbar from "../../component/navbar/Navbar";
 import Sidebar from "../../component/sidebar/Sidebar";
 import lose from "../../images/fortnite/lose.jpg";
 import urkan from "../../images/fortnite/urkan.jpg";
+import tatane from "../../images/president/r1 tatane.jpg";
+import txmm from "../../images/president/jiseh.png";
+import izzi from "../../images/fortnite/Izzi.png";
+import dabbz from "../../images/fortnite/daabz.jpg";
+import gifted from "../../images/fortnite/grfted.jpg";
+import manon from "../../images/manon.jpg";
 const Team = () => {
   return (
     <>
@@ -24,7 +30,7 @@ const Team = () => {
               <div className="p1name">R1 tatane</div>
               <div className="p1line"></div>
               <div className="p1image">
-                <img src="" alt="R1 tatane" className="team-image" />
+                <img src={tatane} alt="R1 tatane" className="team-image" />
               </div>
               <div className="p1line"></div>
               <div className="p1info">
@@ -56,7 +62,7 @@ const Team = () => {
               <div className="p1name">R1 Txmmm</div>
               <div className="p1line"></div>
               <div className="p1image">
-                <img src="" alt="R1 Txmmm" className="team-image" />
+                <img src={txmm} alt="R1 Txmmm" className="team-image" />
               </div>
               <div className="p1line"></div>
               <div className="p1info">
@@ -90,7 +96,7 @@ const Team = () => {
             <div className="p1name"> R1 Izzi</div>
             <div className="p1line"></div>
             <div className="p1image">
-              <img src="" alt="R1 tatane" className="team-image" />
+              <img src={izzi} alt="R1 Izzi" className="team-image" />
             </div>
             <div className="p1line"></div>
             <div className="p1info">
@@ -129,7 +135,7 @@ const Team = () => {
             <div className="p1name">R1 Lose</div>
             <div className="p1line"></div>
             <div className="p1image">
-              <img src={lose} alt="R1 tatane" className="team-image" />
+              <img src={lose} alt="R1 lose" className="team-image" />
             </div>
             <div className="p1line"></div>
             <div className="p1info">
@@ -171,7 +177,7 @@ const Team = () => {
             <div className="p1name">R1 Daabz</div>
             <div className="p1line"></div>
             <div className="p1image">
-              <img src="" alt="R1 tatane" className="team-image" />
+              <img src={dabbz} alt="R1 dabbz" className="team-image" />
             </div>
             <div className="p1line"></div>
             <div className="p1info">
@@ -214,7 +220,7 @@ const Team = () => {
             <div className="p1name">R1 Gifted</div>
             <div className="p1line"></div>
             <div className="p1image">
-              <img src="" alt="R1 tatane" className="team-image" />
+              <img src={gifted} alt="R1 Gifted" className="team-image" />
             </div>
             <div className="p1line"></div>
             <div className="p1info">
@@ -288,6 +294,65 @@ const Team = () => {
                 <img
                   src="https://trakeresport.fr/static/img/logo_twitch_bpanc.png"
                   alt="twitch"
+                  className="logo-reseaux"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="fortnite">
+        <h2>Directrice AudioVisuel</h2>
+        <div className="audio-all">
+          <div className="audio">
+            <div className="p1name">Manon Chauvin</div>
+            <div className="p1line"></div>
+            <div className="p1image">
+              <img src={manon} alt="manon chauvin" className="team-image" />
+            </div>
+            <div className="p1line"></div>
+            <div>
+              Je m’appelle Manon Chauvin, j’ai 20 ans et je suis graphiste
+              professionnelle et expérimentée, possédant mon auto-entreprise du
+              nom de PubliGraphique ayant 6 ans d’expérience dans le domaine du
+              graphisme. Spécialisée dans la conception d’identité visuelle /
+              charte graphique, je réalise aussi toutes sorte de supports/outils
+              de communication Print & Web. J’ai réalisé au cours des 6
+              dernières années des projets pour des clients professionnel(le)s
+              tels que la conception de leur identité, visuelle pour se
+              démarquer des autres, leurs affiches, flyers/ tracts pour la
+              visibilité de leurs services/produits, des vignettes web, et bien
+              d’autres ! Directrice AudioVisuel au sein de l’équipe e-sport R1,
+              ce rôle est important car je m’occupe de recruter des personnes
+              dans le pôle AudioVisuel tels que des graphistes monteur etc…
+              Etant expérimentée et professionnelle, je donnerai des conseils
+              pour permettre aux graphistes de s’améliorer et mieux gérer les
+              demandes. Mon rôle est aussi bien de gérer/organiser les projets
+              des joueurs, streamer, etc de la team pour donner du travail au
+              graphistes et monteur en fonction de la demande.
+            </div>
+            <div className="p1line2"></div>
+            <div className="p1links">
+              <a
+                href="https://twitter.com/publigraphique?s=21&t=IPwILWKvcODeM5hPtLpW5w"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_twitter.png"
+                  alt="twitter"
+                  className="logo-reseaux"
+                />
+              </a>
+              <a
+                href="https://vm.tiktok.com/ZMNPcPJpA/?k=1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_tiktok.png"
+                  alt="tiktok"
                   className="logo-reseaux"
                 />
               </a>
