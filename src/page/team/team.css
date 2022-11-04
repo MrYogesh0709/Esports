@@ -57,15 +57,15 @@ h2 {
   background-color: rgb(40, 40, 40);
   margin: 0 auto;
 }
+
 .p1info {
-  height: 2rem;
-  min-height: 2rem;
-}
-.p1info {
-  height: 20rem;
+  height: 10rem;
   min-height: 10rem;
 }
 
+.p1links {
+  display: flex;
+}
 @media screen and (min-width: 570px) {
   .president-all {
     padding: 1rem 4rem;
@@ -98,6 +98,22 @@ h2 {
 *****/
 
 .fortnite {
-  border: 1px solid red;
   margin: 1rem auto;
+}
+
+.fortnite-all {
+  border: 1px solid var(--light-shadow);
+  box-shadow: var(--light-shadow);
+  background-color: rgb(16, 18, 25);
+  margin-top: 1rem;
+}
+@media screen and (min-width: 570px) {
+  .fortnite-all {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .p1info {
+    height: 348px;
+    min-height: 3rem;
+  }
 }
