@@ -4,6 +4,9 @@
   width: 100%;
   max-width: 85vw;
   margin: 2rem auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 .news > h1 {
   text-align: center;
@@ -16,4 +19,10 @@
 .news > p::first-letter {
   color: rgb(244, 122, 40);
   font-size: larger;
+}
+
+.news-link {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
 }

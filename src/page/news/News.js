@@ -15,26 +15,20 @@ const News = () => {
       </div>
       <main className="news">
         <h1>news</h1>
-        <p>
-          Je m’appelle <b> Manon Chauvin</b>, j’ai 20 ans et je suis graphiste
-          professionnelle et expérimentée, possédant mon auto-entreprise du nom
-          de PubliGraphique ayant 6 ans d’expérience dans le domaine du
-          graphisme. Spécialisée dans la conception d’identité visuelle / charte
-          graphique, je réalise aussi toutes sorte de supports/outils de
-          communication Print & Web. J’ai réalisé au cours des 6 dernières
-          années des projets pour des clients professionnel(le)s tels que la
-          conception de leur identité, visuelle pour se démarquer des autres,
-          leurs affiches, flyers/ tracts pour la visibilité de leurs
-          services/produits, des vignettes web, et bien d’autres ! Directrice
-          AudioVisuel au sein de l’équipe <b>e-sport R1</b> , ce rôle est
-          important car je m’occupe de recruter des personnes dans le pôle
-          AudioVisuel tels que des graphistes monteur etc… Etant expérimentée et
-          professionnelle, je donnerai des conseils pour permettre aux
-          graphistes de s’améliorer et mieux gérer les demandes. Mon rôle est
-          aussi bien de gérer/organiser les projets des joueurs, streamer, etc
-          de la team pour donner du travail au graphistes et monteur en fonction
-          de la demande.
-        </p>
+        <h4>All News will be available here:</h4>
+        <div className="news-link">
+          <a
+            href="https://twitter.com/izziFTN/status/1586092723706003456/photo/1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://w7.pngwing.com/pngs/981/939/png-transparent-hyperlink-computer-icons-direct-link-others-miscellaneous-text-logo.png"
+              alt="publicgraphicque"
+              className="logo-reseaux"
+            />
+          </a>
+        </div>
       </main>
       <Footer />
     </>
