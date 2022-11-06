@@ -309,7 +309,7 @@ const Team = () => {
             <div className="p1name">Manon Chauvin</div>
             <div className="p1line"></div>
             <div className="p1image">
-              <img src={manon} alt="manon chauvin" className="team-image" />
+              <img src={manon} alt="manon chauvin" className="manon-image" />
             </div>
             <div className="p1line"></div>
             <div>
@@ -342,6 +342,17 @@ const Team = () => {
                 <img
                   src="https://trakeresport.fr/static/img/logo_twitter.png"
                   alt="twitter"
+                  className="logo-reseaux"
+                />
+              </a>
+              <a
+                href="https://publigraphique.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://w7.pngwing.com/pngs/981/939/png-transparent-hyperlink-computer-icons-direct-link-others-miscellaneous-text-logo.png"
+                  alt="publicgraphicque"
                   className="logo-reseaux"
                 />
               </a>
