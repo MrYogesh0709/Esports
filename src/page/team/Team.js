@@ -11,6 +11,7 @@ import izzi from "../../images/fortnite/Izzi.png";
 import dabbz from "../../images/fortnite/daabz.jpg";
 import gifted from "../../images/fortnite/grfted.jpg";
 import manon from "../../images/manon.jpg";
+import romu from "../../images/communaction/romu.jpg";
 const Team = () => {
   return (
     <>
@@ -21,72 +22,234 @@ const Team = () => {
           <h1>Our Team</h1>
         </div>
       </section>
-      <div className="section1">
-        <div className="president">
-          <h2>president</h2>
 
-          <div className="president-all">
-            <div className="p1">
-              <div className="p1name">R1 tatane</div>
-              <div className="p1line"></div>
-              <div className="p1image">
-                <img src={tatane} alt="R1 tatane" className="team-image" />
-              </div>
-              <div className="p1line"></div>
-              <div className="p1info">
-                Je me nomme Ethan 16 ans fondateur et président R1 ESPORT.
-                Actuellement en formation système numérique, je compte à
-                l’avenir développer au maximum mon savoir dans le vaste domaine
-                de l’informatique. Cela fait maintenant 3 ans que je prends part
-                à différents projets au sein de l'eSport. Que ce soit en tant
-                que joueur, manager ou bien directeur, j’ai pu acquérir
-                plusieurs expériences au fur et à mesure de ma progression et je
-                compte bien mettre à profit mon expérience via le projet R1.
-              </div>
-              <div className="p1line2"></div>
-              <div className="p1links">
-                <a
-                  href="https://twitter.com/r1_tatane?s=21&t=Z4qcMPOo1IHuqthGOAxVlw"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="https://trakeresport.fr/static/img/logo_twitter.png"
-                    alt="twitter"
-                    className="logo-reseaux"
-                  />
-                </a>
-              </div>
+      <div className="president">
+        <h2>president</h2>
+
+        <div className="president-all">
+          <div className="p1">
+            <div className="p1name">R1 tatane</div>
+            <div className="p1line"></div>
+            <div className="p1image">
+              <img src={tatane} alt="R1 tatane" className="team-image" />
             </div>
-            <div className="p1">
-              <div className="p1name">R1 Txmmm</div>
-              <div className="p1line"></div>
-              <div className="p1image">
-                <img src={txmm} alt="R1 Txmmm" className="team-image" />
-              </div>
-              <div className="p1line"></div>
-              <div className="p1info">
-                Tom, 21 ans, président de la R1 depuis plusieurs mois aux côtés
-                de tatane. Je travaille dans l'administration. Co president
-              </div>
-              <div className="p1line2"></div>
-              <div className="p1links">
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="https://trakeresport.fr/static/img/logo_twitter.png"
-                    alt="twitter"
-                    className="logo-reseaux"
-                  />
-                </a>
-              </div>
+            <div className="p1line"></div>
+            <div className="p1info">
+              Je me nomme Ethan 16 ans fondateur et président R1 ESPORT.
+              Actuellement en formation système numérique, je compte à l’avenir
+              développer au maximum mon savoir dans le vaste domaine de
+              l’informatique. Cela fait maintenant 3 ans que je prends part à
+              différents projets au sein de l'eSport. Que ce soit en tant que
+              joueur, manager ou bien directeur, j’ai pu acquérir plusieurs
+              expériences au fur et à mesure de ma progression et je compte bien
+              mettre à profit mon expérience via le projet R1.
+            </div>
+            <div className="p1line2"></div>
+            <div className="p1links">
+              <a
+                href="https://twitter.com/r1_tatane?s=21&t=Z4qcMPOo1IHuqthGOAxVlw"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_twitter.png"
+                  alt="twitter"
+                  className="logo-reseaux"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="p1">
+            <div className="p1name">R1 Txmmm</div>
+            <div className="p1line"></div>
+            <div className="p1image">
+              <img src={txmm} alt="R1 Txmmm" className="team-image" />
+            </div>
+            <div className="p1line"></div>
+            <div className="p1info">
+              Tom, 21 ans, président de la R1 depuis plusieurs mois aux côtés de
+              tatane. Je travaille dans l'administration. Co president
+            </div>
+            <div className="p1line2"></div>
+            <div className="p1links">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_twitter.png"
+                  alt="twitter"
+                  className="logo-reseaux"
+                />
+              </a>
             </div>
           </div>
         </div>
       </div>
+
+      {/* direcation */}
+
+      <div className="evenementiel">
+        <h2>direaction</h2>
+        <div className="evenementiel-all">
+          <div className="evenementiel1">
+            <div className="p1name">Skiinya</div>
+            <div className="p1line"></div>
+            <div className="p1image">
+              <img src="" alt="R1 tatane" className="manon-image" />
+            </div>
+            <div className="p1line"></div>
+            <div className="p1info">
+              Kentin brejaud 20 ans, je suis rentré dans la R1 esport pour
+              pouvoir développer mon cast et mon expérience de streamer au sein
+              d’une équipe organisée, bien cadré et professionnel. Mes objectifs
+              dans l’avenir sont performer en tant que streamer chez la R1 et
+              performer dans le domaine du cast.
+            </div>
+            <div className="p1line2"></div>
+            {/* <div className="p1links">
+              <a
+                href="https://instagram.com/urkanss?igshid=YmMyMTA2M2Y= "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_insta_blanc.png"
+                  alt="instagram"
+                  className="logo-reseaux"
+                />
+              </a>
+              <a
+                href="https://twitch.tv/prince_urkans"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_twitch_bpanc.png"
+                  alt="twitch"
+                  className="logo-reseaux"
+                />
+              </a>
+            </div> */}
+          </div>
+        </div>
+      </div>
+
+      {/* communication */}
+
+      <div className="president">
+        <h2>Commmunication</h2>
+
+        <div className="president-all">
+          <div className="p1">
+            <div className="p1name">R1 Romu Publicitaire</div>
+            <div className="p1line"></div>
+            <div className="p1image">
+              <img src={romu} alt="Romu" className="team-image" />
+            </div>
+            <div className="p1line"></div>
+            <div className="p1info">
+              Je me nome Romuald, 19 ans Publicitaire chez R1 eSport. Partager
+              au personne passionné d’eSport et de compétition R1 eSport est
+              agréable pour apprendre et évoluer. Je me charge de tout ce qui
+              est publicitaire par rapport à la structure que se soit via les
+              réseaux ou quelque fois irl. Mon objectif dans l'avenir en tant
+              que R1, est de faire grandir cette structure au niveau de la
+              communauté et du personnel.
+            </div>
+            <div className="p1line2"></div>
+            {/* <div className="p1links">
+              <a
+                href="https://twitter.com/r1_tatane?s=21&t=Z4qcMPOo1IHuqthGOAxVlw"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_twitter.png"
+                  alt="twitter"
+                  className="logo-reseaux"
+                />
+              </a>
+            </div> */}
+          </div>
+          <div className="p1">
+            <div className="p1name">NLT</div>
+            <div className="p1line"></div>
+            <div className="p1image">
+              <img src="" alt="NLT" className="team-image" />
+            </div>
+            <div className="p1line"></div>
+            <div className="p1info">
+              {/* Tom, 21 ans, président de la R1 depuis plusieurs mois aux côtés de
+              tatane. Je travaille dans l'administration. Co president */}
+            </div>
+            <div className="p1line2"></div>
+            {/* <div className="p1links">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_twitter.png"
+                  alt="twitter"
+                  className="logo-reseaux"
+                />
+              </a>
+            </div> */}
+          </div>
+        </div>
+      </div>
+      {/* evenementiel */}
+
+      <div className="evenementiel">
+        <h2>Evenementiel</h2>
+        <div className="evenementiel-all">
+          <div className="evenementiel1">
+            <div className="p1name">R1 Prince_Urkans</div>
+            <div className="p1line"></div>
+            <div className="p1image">
+              <img src={urkan} alt="R1 tatane" className="manon-image" />
+            </div>
+            <div className="p1line"></div>
+            <div className="p1info">
+              Kentin brejaud 20 ans, je suis rentré dans la R1 esport pour
+              pouvoir développer mon cast et mon expérience de streamer au sein
+              d’une équipe organisée, bien cadré et professionnel. Mes objectifs
+              dans l’avenir sont performer en tant que streamer chez la R1 et
+              performer dans le domaine du cast.
+            </div>
+            <div className="p1line2"></div>
+            <div className="p1links">
+              <a
+                href="https://instagram.com/urkanss?igshid=YmMyMTA2M2Y= "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_insta_blanc.png"
+                  alt="instagram"
+                  className="logo-reseaux"
+                />
+              </a>
+              <a
+                href="https://twitch.tv/prince_urkans"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_twitch_bpanc.png"
+                  alt="twitch"
+                  className="logo-reseaux"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* fortnite */}
 
       <div className="fortnite">
         <h2>Fortnite</h2>
@@ -258,51 +421,12 @@ const Team = () => {
               </a>
             </div>
           </div>
-
-          <div className="p1">
-            <div className="p1name">R1 Prince_Urkans</div>
-            <div className="p1line"></div>
-            <div className="p1image">
-              <img src={urkan} alt="R1 tatane" className="team-image" />
-            </div>
-            <div className="p1line"></div>
-            <div className="p1info">
-              Kentin brejaud 20 ans, je suis rentré dans la R1 esport pour
-              pouvoir développer mon cast et mon expérience de streamer au sein
-              d’une équipe organisée, bien cadré et professionnel. Mes objectifs
-              dans l’avenir sont performer en tant que streamer chez la R1 et
-              performer dans le domaine du cast.
-            </div>
-            <div className="p1line2"></div>
-            <div className="p1links">
-              <a
-                href="https://instagram.com/urkanss?igshid=YmMyMTA2M2Y= "
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://trakeresport.fr/static/img/logo_insta_blanc.png"
-                  alt="instagram"
-                  className="logo-reseaux"
-                />
-              </a>
-              <a
-                href="https://twitch.tv/prince_urkans"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://trakeresport.fr/static/img/logo_twitch_bpanc.png"
-                  alt="twitch"
-                  className="logo-reseaux"
-                />
-              </a>
-            </div>
-          </div>
         </div>
       </div>
 
-      <div className="fortnite">
+      {/* audio visueal */}
+
+      <div className="Directrice-AudioVisuel">
         <h2>Directrice AudioVisuel</h2>
         <div className="audio-all">
           <div className="audio">
