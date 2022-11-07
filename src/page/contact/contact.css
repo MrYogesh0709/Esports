@@ -19,6 +19,9 @@
   font-size: large;
   padding-top: 1rem;
 }
+.form-control {
+  width: 100%;
+}
 .form-control > input {
   padding: 0.5rem;
   font-size: medium;
@@ -49,7 +52,7 @@
 .inline {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
@@ -73,6 +76,6 @@
     max-width: 900px;
   }
   .inline {
-    gap: 0;
+    gap: 1;
   }
 }

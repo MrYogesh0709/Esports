@@ -188,9 +188,9 @@ const Team = () => {
       </div>
       {/* evenementiel */}
 
-      <div className="">
+      <div className="Directrice-AudioVisuel">
         <h2>Evenementiel</h2>
-        <div className="">
+        <div className="audio-all">
           <div className="evenementiel1">
             <div className="p1name">R1 Prince_Urkans</div>
             <div className="p1line"></div>
@@ -401,78 +401,6 @@ const Team = () => {
                 <img
                   src="https://trakeresport.fr/static/img/logo_twitch_bpanc.png"
                   alt="twitch"
-                  className="logo-reseaux"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* audio visueal */}
-
-      <div className="Directrice-AudioVisuel">
-        <h2>Directrice AudioVisuel</h2>
-        <div className="audio-all">
-          <div className="audio">
-            <div className="p1name">Manon Chauvin</div>
-            <div className="p1line"></div>
-            <div className="p1image">
-              <img src={manon} alt="manon chauvin" className="manon-image" />
-            </div>
-            <div className="p1line"></div>
-            <div>
-              Je m’appelle Manon Chauvin, j’ai 20 ans et je suis graphiste
-              professionnelle et expérimentée, possédant mon auto-entreprise du
-              nom de PubliGraphique ayant 6 ans d’expérience dans le domaine du
-              graphisme. Spécialisée dans la conception d’identité visuelle /
-              charte graphique, je réalise aussi toutes sorte de supports/outils
-              de communication Print & Web. J’ai réalisé au cours des 6
-              dernières années des projets pour des clients professionnel(le)s
-              tels que la conception de leur identité, visuelle pour se
-              démarquer des autres, leurs affiches, flyers/ tracts pour la
-              visibilité de leurs services/produits, des vignettes web, et bien
-              d’autres ! Directrice AudioVisuel au sein de l’équipe e-sport R1,
-              ce rôle est important car je m’occupe de recruter des personnes
-              dans le pôle AudioVisuel tels que des graphistes monteur etc…
-              Etant expérimentée et professionnelle, je donnerai des conseils
-              pour permettre aux graphistes de s’améliorer et mieux gérer les
-              demandes. Mon rôle est aussi bien de gérer/organiser les projets
-              des joueurs, streamer, etc de la team pour donner du travail au
-              graphistes et monteur en fonction de la demande.
-            </div>
-            <div className="p1line2"></div>
-            <div className="p1links">
-              <a
-                href="https://twitter.com/publigraphique?s=21&t=IPwILWKvcODeM5hPtLpW5w"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://trakeresport.fr/static/img/logo_twitter.png"
-                  alt="twitter"
-                  className="logo-reseaux"
-                />
-              </a>
-              <a
-                href="https://publigraphique.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://w7.pngwing.com/pngs/981/939/png-transparent-hyperlink-computer-icons-direct-link-others-miscellaneous-text-logo.png"
-                  alt="publicgraphicque"
-                  className="logo-reseaux"
-                />
-              </a>
-              <a
-                href="https://vm.tiktok.com/ZMNPcPJpA/?k=1"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://trakeresport.fr/static/img/logo_tiktok.png"
-                  alt="tiktok"
                   className="logo-reseaux"
                 />
               </a>
