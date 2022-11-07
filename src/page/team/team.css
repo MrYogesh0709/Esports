@@ -78,28 +78,10 @@ h2 {
 @media screen and (min-width: 570px) {
   .president-all {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-  /* .p1info {
-    height: 448px;
-    min-height: 3rem;
-  } */
 }
-/* /* @media screen and (min-width: 770px) {
-  .p1info {
-    height: 348px;
-    min-height: 3rem;
-  }
-} */
-@media screen and (min-width: 970px) {
-  .president-all {
-    grid-template-columns: repeat(3, minmax(250px, 1fr));
-  }
-  /* .p1info {
-    height: 248px;
-    min-height: 3rem;
-  } */
-}
+
 */
 
 /*****
