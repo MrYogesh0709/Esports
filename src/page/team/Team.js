@@ -94,10 +94,10 @@ const Team = () => {
         <h2>direaction</h2>
         <div className="evenementiel-all">
           <div className="evenementiel1">
-            <div className="p1name">Skiinya</div>
+            <div className="p1name">Skiinya (Manon Chauvin)</div>
             <div className="p1line"></div>
             <div className="p1image">
-              <img src="" alt="R1 tatane" className="manon-image" />
+              <img src={manon} alt="R1 tatane" className="manon-image" />
             </div>
             <div className="p1line"></div>
             <div className="p1info">
@@ -108,45 +108,56 @@ const Team = () => {
               performer dans le domaine du cast.
             </div>
             <div className="p1line2"></div>
-            {/* <div className="p1links">
+            <div className="p1links">
               <a
-                href="https://instagram.com/urkanss?igshid=YmMyMTA2M2Y= "
+                href="https://twitter.com/publigraphique?s=21&t=IPwILWKvcODeM5hPtLpW5w"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://trakeresport.fr/static/img/logo_insta_blanc.png"
-                  alt="instagram"
+                  src="https://trakeresport.fr/static/img/logo_twitter.png"
+                  alt="twitter"
                   className="logo-reseaux"
                 />
               </a>
               <a
-                href="https://twitch.tv/prince_urkans"
+                href="https://publigraphique.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://trakeresport.fr/static/img/logo_twitch_bpanc.png"
-                  alt="twitch"
+                  src="https://w7.pngwing.com/pngs/981/939/png-transparent-hyperlink-computer-icons-direct-link-others-miscellaneous-text-logo.png"
+                  alt="publicgraphicque"
                   className="logo-reseaux"
                 />
               </a>
-            </div> */}
+              <a
+                href="https://vm.tiktok.com/ZMNPcPJpA/?k=1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_tiktok.png"
+                  alt="tiktok"
+                  className="logo-reseaux"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
       {/* communication */}
 
-      <div className="president">
+      <div className="Directrice-AudioVisuel">
         <h2>Commmunication</h2>
 
-        <div className="president-all">
-          <div className="p1">
+        <div className="audio-all">
+          <div className="audio">
             <div className="p1name">R1 Romu Publicitaire</div>
             <div className="p1line"></div>
             <div className="p1image">
-              <img src={romu} alt="Romu" className="team-image" />
+              <img src={romu} alt="Romu" className="manon-image" />
             </div>
             <div className="p1line"></div>
             <div className="p1info">
@@ -173,39 +184,13 @@ const Team = () => {
               </a>
             </div> */}
           </div>
-          <div className="p1">
-            <div className="p1name">NLT</div>
-            <div className="p1line"></div>
-            <div className="p1image">
-              <img src="" alt="NLT" className="team-image" />
-            </div>
-            <div className="p1line"></div>
-            <div className="p1info">
-              {/* Tom, 21 ans, président de la R1 depuis plusieurs mois aux côtés de
-              tatane. Je travaille dans l'administration. Co president */}
-            </div>
-            <div className="p1line2"></div>
-            {/* <div className="p1links">
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://trakeresport.fr/static/img/logo_twitter.png"
-                  alt="twitter"
-                  className="logo-reseaux"
-                />
-              </a>
-            </div> */}
-          </div>
         </div>
       </div>
       {/* evenementiel */}
 
-      <div className="evenementiel">
+      <div className="">
         <h2>Evenementiel</h2>
-        <div className="evenementiel-all">
+        <div className="">
           <div className="evenementiel1">
             <div className="p1name">R1 Prince_Urkans</div>
             <div className="p1line"></div>

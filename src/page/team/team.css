@@ -81,6 +81,12 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
+@media screen and (min-width: 770px) {
+  .president-all {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+  }
+}
 
 */
 
