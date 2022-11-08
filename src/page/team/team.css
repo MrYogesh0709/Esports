@@ -55,10 +55,6 @@ h2 {
   margin: 0 auto;
 }
 
-/* .p1info {
-  min-height: 10rem;
-} */
-
 .p1links {
   display: flex;
 }
@@ -82,15 +78,7 @@ h2 {
   }
 }
 
-*/
-
-/*****
-=========
- FORTNITE
-========
-*****/
-
-.fortnite {
+*/ .fortnite {
   margin: 1rem auto;
 }
 
@@ -110,12 +98,6 @@ h2 {
     min-height: 3rem;
   }
 }
-
-/*****
-=========
- evenemential
-========
-*****/
 
 .evenementiel {
   margin: 1rem auto;
@@ -160,12 +142,6 @@ h2 {
     margin: 2rem 15rem;
   }
 }
-
-/*****
-=========
- audio
-========
-*****/
 
 .Directrice-AudioVisuel {
   margin: 1rem auto;
