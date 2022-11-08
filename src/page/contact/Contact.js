@@ -16,9 +16,9 @@ const Contact = () => {
           <h1>Thanks</h1>
           <p>The Form submitted successfully!!</p>
           <div className="error">
-            <Link to="/" className="btn btn-primary">
+            {/* <Link to="/" className="btn btn-primary">
               back home
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>
