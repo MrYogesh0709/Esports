@@ -71,6 +71,14 @@
   font-size: larger;
 }
 
+.submit-btn:hover {
+  transform: scale(0.9);
+}
+
+.error-container > p {
+  margin-top: 2rem;
+  color: black;
+}
 @media screen and (min-width: 500px) {
   .form {
     max-width: 900px;

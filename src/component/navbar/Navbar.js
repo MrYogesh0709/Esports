@@ -21,7 +21,7 @@ const Navbar = () => {
     return () => {
       document.removeEventListener("mousedown", handler);
     };
-  }, []);
+  }, [setIsSidebarOpen]);
   return (
     <nav className="nav">
       <div className="nav-center">
@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
         <ul className="nav-links">
           <Link to="/">
-            <li className="link-btn">welcome</li>
+            <li className="link-btn">home</li>
           </Link>
           <Link to="/team">
             <li className="link-btn">team</li>

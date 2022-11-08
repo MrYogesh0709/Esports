@@ -1,38 +1,29 @@
-import React, { useState } from "react";
+import React from "react";
 import "./contact.css";
 import r1 from "../../images/R1.jpg";
 import Footer from "../../component/Footer/Footer";
 import Navbar from "../../component/navbar/Navbar";
 import Sidebar from "../../component/sidebar/Sidebar";
+import { useForm, ValidationError } from "@formspree/react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
-  const [person, setPerson] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    object: "",
-    message: "",
-  });
-  const [people, setPeople] = useState([]);
-  const handleChange = (e) => {
-    const name = e.target.name;
-    const value = e.target.value;
-    setPerson({ ...person, [name]: value });
-  };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (person.firstName && person.email && person.age) {
-      const newPerson = { ...person, id: new Date().getTime().toString() };
-      setPeople([...people, newPerson]);
-      setPerson({
-        firstName: "",
-        lastName: "",
-        email: "",
-        object: "",
-        message: "",
-      });
-    }
-  };
+  const [state, handleSubmit] = useForm("maykaoqj");
+  if (state.succeeded) {
+    return (
+      <section className="error-page section">
+        <div className="error-container">
+          <h1>Thanks</h1>
+          <p>The Form submitted successfully!!</p>
+          <div className="error">
+            <Link to="/" className="btn btn-primary">
+              back home
+            </Link>
+          </div>
+        </div>
+      </section>
+    );
+  }
   return (
     <>
       <Navbar />
@@ -42,7 +33,12 @@ const Contact = () => {
       </div>
       <div className="section">
         <h1 className="contactus">contact us</h1>
-        <form className="form">
+        <form
+          action="https://formspree.io/f/maykaoqj"
+          method="POST"
+          className="form"
+          onSubmit={handleSubmit}
+        >
           <div className="inline">
             <div className="form-control">
               <label htmlFor="lastName" className="form-label">
@@ -53,8 +49,7 @@ const Contact = () => {
                 id="lastName"
                 placeholder="Enter your last name"
                 name="lastName"
-                value={person.lastName}
-                onChange={handleChange}
+                required
               />
             </div>
             <div className="form-control">
@@ -66,8 +61,7 @@ const Contact = () => {
                 id="firstName"
                 placeholder="Enter your first name"
                 name="firstName"
-                value={person.firstName}
-                onChange={handleChange}
+                required
               />
             </div>
           </div>
@@ -81,21 +75,23 @@ const Contact = () => {
                 id="email"
                 placeholder="Enter your Email"
                 name="email"
-                value={person.email}
-                onChange={handleChange}
+                required
+              />
+              <ValidationError
+                prefix="Email"
+                field="email"
+                errors={state.errors}
               />
             </div>
             <div className="form-control">
               <label htmlFor="object" className="form-label">
-                Object :{" "}
+                Object :
               </label>
               <input
                 placeholder="Enter Your subject"
                 type="text"
                 id="object"
                 name="object"
-                value={person.object}
-                onChange={handleChange}
               />
             </div>
           </div>
@@ -103,25 +99,23 @@ const Contact = () => {
             <label className="form-label" htmlFor="message">
               Message :
             </label>
-            <textarea
-              type="text"
-              id="message"
-              placeholder=""
-              name="message"
-              value={person.message}
-              onChange={handleChange}
+            <textarea type="text" id="message" placeholder="" name="message" />
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
             />
           </div>
+          <div className="send">
+            <button
+              type="submit"
+              className="btn submit-btn"
+              disabled={state.submitting}
+            >
+              Send
+            </button>
+          </div>
         </form>
-        <div className="send">
-          <button
-            type="submit"
-            className="btn submit-btn"
-            onClick={handleSubmit}
-          >
-            Send
-          </button>
-        </div>
       </div>
       <Footer />
     </>

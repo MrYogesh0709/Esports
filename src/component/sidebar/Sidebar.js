@@ -21,7 +21,7 @@ const Sidebar = () => {
           <ul className="links-siderbar">
             <Link to="/">
               <li className="link-sidebar" onClick={closeSidebar}>
-                welcome
+                home
               </li>
             </Link>
             <Link to="/team">

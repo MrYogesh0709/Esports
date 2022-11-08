@@ -17,7 +17,7 @@ const Footer = () => {
           <ul className="links-sidebar">
             <li className="link-social">
               <a
-                href="https://twitter.com"
+                href="https://twitter.com/r1_esport_"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-links"
@@ -27,7 +27,7 @@ const Footer = () => {
             </li>
             <li className="link-social">
               <a
-                href="https://discord.gg/WnXCSBGUBh"
+                href="https://discord.com/invite/WnXCSBGUBh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-links"
@@ -37,7 +37,7 @@ const Footer = () => {
             </li>
             <li className="link-social">
               <a
-                href="https://youtube.com/channel/UCTkWeEcFMf_pPWuFZRWJbow"
+                href="https://www.youtube.com/channel/UCTkWeEcFMf_pPWuFZRWJbow"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-links"
@@ -47,7 +47,7 @@ const Footer = () => {
             </li>
             <li className="link-social">
               <a
-                href="https://trakeresport.fr/static/img/logo_twitch_bpanc.png"
+                href="https://www.twitch.tv/r1_esport"
                 target="_blank"
                 className="social-links"
                 rel="noopener noreferrer"
@@ -57,12 +57,12 @@ const Footer = () => {
             </li>
             <li className="link-social">
               <a
-                href="https://www.instagram.com"
+                href="https://www.tiktok.com/@r1_esport"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-links"
               >
-                instgram
+                tiktok
               </a>
             </li>
           </ul>
@@ -72,8 +72,7 @@ const Footer = () => {
           <Link to="/contact" style={{ color: "white" }}>
             Contact page
           </Link>
-          <p>marketing.traker@gmail.com</p>
-          <p>trader.contact@gmail.com</p>
+          <p>r1esportcontact@gmail.com</p>
         </div>
       </div>
       <div className="line"></div>

@@ -42,7 +42,7 @@ const Welcome = () => {
         <p>ON</p>
         <div className="reseaux">
           <a
-            href="https://twitter.com"
+            href="https://twitter.com/r1_esport_"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -52,19 +52,9 @@ const Welcome = () => {
               className="logo-reseaux"
             />
           </a>
+
           <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://trakeresport.fr/static/img/logo_insta_blanc.png"
-              alt="instgram"
-              className="logo-reseaux"
-            />
-          </a>
-          <a
-            href="https://youtube.com/channel/UCTkWeEcFMf_pPWuFZRWJbow"
+            href="https://www.youtube.com/channel/UCTkWeEcFMf_pPWuFZRWJbow"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -75,7 +65,7 @@ const Welcome = () => {
             />
           </a>
           <a
-            href="https://twitch.tv/r1_esport"
+            href="https://www.twitch.tv/r1_esport"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -85,7 +75,11 @@ const Welcome = () => {
               className="logo-reseaux"
             />
           </a>
-          <a href="https://discord.gg/WnXCSBGUBh" rel="noopener noreferrer">
+          <a
+            href="https://discord.com/invite/WnXCSBGUBh"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img
               src="https://trakeresport.fr/static/img/logo_discord_blanc.png"
               alt="discord"
@@ -93,7 +87,7 @@ const Welcome = () => {
             />
           </a>
           <a
-            href="https://tiktok.com"
+            href="https://www.tiktok.com/@r1_esport"
             target="_blank"
             rel="noopener noreferrer"
           >
