@@ -73,7 +73,7 @@ const Team = () => {
             <div className="p1line2"></div>
             <div className="p1links">
               <a
-                href="https://twitter.com"
+                href="https://twitter.com/txmmm0?s=20&t=lw5I67WwwhLFNRueq7Edww"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -149,15 +149,15 @@ const Team = () => {
 
       {/* communication */}
 
-      <div className="Directrice-AudioVisuel">
+      <div className="president">
         <h2>Commmunication</h2>
 
-        <div className="audio-all">
-          <div className="audio">
+        <div className="president-all">
+          <div className="p1">
             <div className="p1name">R1 Romu Publicitaire</div>
             <div className="p1line"></div>
             <div className="p1image">
-              <img src={romu} alt="Romu" className="manon-image" />
+              <img src={romu} alt="Romu" className="team-image" />
             </div>
             <div className="p1line"></div>
             <div className="p1info">
@@ -168,6 +168,36 @@ const Team = () => {
               réseaux ou quelque fois irl. Mon objectif dans l'avenir en tant
               que R1, est de faire grandir cette structure au niveau de la
               communauté et du personnel.
+            </div>
+            <div className="p1line2"></div>
+            {/* <div className="p1links">
+              <a
+                href="https://twitter.com/r1_tatane?s=21&t=Z4qcMPOo1IHuqthGOAxVlw"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_twitter.png"
+                  alt="twitter"
+                  className="logo-reseaux"
+                />
+              </a>
+            </div> */}
+          </div>
+
+          <div className="p1">
+            <div className="p1name">R1 NLT</div>
+            <div className="p1line"></div>
+            <div className="p1image">
+              <img src={romu} alt="Romu" className="manon-image" />
+            </div>
+            <div className="p1line"></div>
+            <div className="p1info">
+              Bonjour, je me présente je m'appelle Kyllian (alias NLT) j'ai 14
+              ans je suis dans la R1 depuis maintenant 1 mois en tant que
+              modérateur. Mon travail consiste à surveiller l'ensemble du
+              serveur discord. Je fait en sorte que la joie et la bonne humeur
+              règne au seins de la communauté R1.
             </div>
             <div className="p1line2"></div>
             {/* <div className="p1links">
@@ -395,6 +425,46 @@ const Team = () => {
               </a>
               <a
                 href="https://twitch.tv/giftedqr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_twitch_bpanc.png"
+                  alt="twitch"
+                  className="logo-reseaux"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div className="p1">
+            <div className="p1name">R1 Vexy Joueur</div>
+            <div className="p1line"></div>
+            <div className="p1image">
+              <img src={gifted} alt="R1 Gifted" className="team-image" />
+            </div>
+            <div className="p1line"></div>
+            <div className="p1info">
+              Salut je m’appelle Alexandre alias vexy j’ai 14 ans et je suis
+              joueur dans chez R1. Mes objectifs sont de devenir le meilleur
+              joueur fortnite. Je suis depuis environ 5 mois dans cette équipe
+              que je trouve engager.
+            </div>
+            <div className="p1line2"></div>
+            <div className="p1links">
+              <a
+                href="https://twitter.com/vexy70745755?s=20&t=qBMshDOEuWGdaWxuDxzGMw"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://trakeresport.fr/static/img/logo_twitter.png"
+                  alt="twitter"
+                  className="logo-reseaux"
+                />
+              </a>
+              <a
+                href="https://www.twitch.tv/vexyfnbr__"
                 target="_blank"
                 rel="noopener noreferrer"
               >

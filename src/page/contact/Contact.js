@@ -8,7 +8,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("maykaoqj");
+  const [state, handleSubmit] = useForm("xpznkdno");
   if (state.succeeded) {
     return (
       <section className="error-page section">
@@ -34,7 +34,7 @@ const Contact = () => {
       <div className="section">
         <h1 className="contactus">contact us</h1>
         <form
-          action="https://formspree.io/f/maykaoqj"
+          action="https://formspree.io/f/xpznkdno"
           method="POST"
           className="form"
           onSubmit={handleSubmit}
