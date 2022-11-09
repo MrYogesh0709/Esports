@@ -152,7 +152,7 @@ const Team = () => {
       {/* communication */}
 
       <div className="president">
-        <h2>Commmunication</h2>
+        <h2>Communication</h2>
 
         <div className="president-all">
           <div className="p1">
