@@ -12,6 +12,8 @@ import dabbz from "../../images/fortnite/daabz.jpg";
 import gifted from "../../images/fortnite/grfted.jpg";
 import manon from "../../images/manon.jpg";
 import romu from "../../images/communaction/romu.jpg";
+import nlt from "../../images/communaction/nlt.jpg";
+import vexy from "../../images/fortnite/vexy.jpg";
 const Team = () => {
   return (
     <>
@@ -189,7 +191,7 @@ const Team = () => {
             <div className="p1name">R1 NLT</div>
             <div className="p1line"></div>
             <div className="p1image">
-              <img src={romu} alt="Romu" className="manon-image" />
+              <img src={nlt} alt="Romu" className="manon-image" />
             </div>
             <div className="p1line"></div>
             <div className="p1info">
@@ -441,7 +443,7 @@ const Team = () => {
             <div className="p1name">R1 Vexy Joueur</div>
             <div className="p1line"></div>
             <div className="p1image">
-              <img src={gifted} alt="R1 Gifted" className="team-image" />
+              <img src={vexy} alt="R1 Gifted" className="team-image" />
             </div>
             <div className="p1line"></div>
             <div className="p1info">
