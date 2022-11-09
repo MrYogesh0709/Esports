@@ -32,9 +32,9 @@ const Team = () => {
           <div className="p1">
             <div className="p1name">R1 tatane</div>
             <div className="p1line"></div>
-            <div className="p1image">
-              <img src={tatane} alt="R1 tatane" className="team-image" />
-            </div>
+
+            <img src={tatane} alt="R1 tatane" className="team-image" />
+
             <div className="p1line"></div>
             <div className="p1info">
               Je me nomme Ethan 16 ans fondateur et président R1 ESPORT.
@@ -93,7 +93,7 @@ const Team = () => {
       {/* direcation */}
 
       <div className="evenementiel">
-        <h2>direaction</h2>
+        <h2>direction</h2>
         <div className="evenementiel-all">
           <div className="evenementiel1">
             <div className="p1name">Skiinya (Manon Chauvin)</div>

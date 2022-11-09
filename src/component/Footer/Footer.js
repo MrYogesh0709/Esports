@@ -6,13 +6,6 @@ const Footer = () => {
     <div id="footer">
       <div className="footer">
         <div className="footer-div">
-          <h3>About</h3>
-          <p>
-            The Traker EsportAssociation is a team created in 2017 by Antoine
-            Toquec, alias AxiaTls
-          </p>
-        </div>
-        <div className="footer-div">
           <h3>Social</h3>
           <ul className="links-sidebar">
             <li className="link-social">
