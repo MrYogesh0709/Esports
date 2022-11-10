@@ -30,7 +30,7 @@ const Team = () => {
 
         <div className="president-all">
           <div className="p1">
-            <div className="p1name">R1 tatane</div>
+            <div className="p1name">R1 tatane | président</div>
             <div className="p1line"></div>
 
             <img src={tatane} alt="R1 tatane" className="team-image" />
@@ -62,7 +62,7 @@ const Team = () => {
             </div>
           </div>
           <div className="p1">
-            <div className="p1name">R1 Txmmm</div>
+            <div className="p1name">R1 Txmmm | président</div>
             <div className="p1line"></div>
             <div className="p1image">
               <img src={txmm} alt="R1 Txmmm" className="team-image" />
@@ -96,7 +96,9 @@ const Team = () => {
         <h2>direction</h2>
         <div className="evenementiel-all">
           <div className="evenementiel1">
-            <div className="p1name">Skiinya (Manon Chauvin)</div>
+            <div className="p1name">
+              Skiinya( Manon Chauvin) | directrice audiovisuelle
+            </div>
             <div className="p1line"></div>
             <div className="p1image">
               <img src={manon} alt="R1 tatane" className="manon-image" />
@@ -169,7 +171,7 @@ const Team = () => {
 
         <div className="president-all">
           <div className="p1">
-            <div className="p1name">R1 Romu Publicitaire</div>
+            <div className="p1name">R1 Romu Publicitaire | modérateur</div>
             <div className="p1line"></div>
 
             <img src={romu} alt="Romu" className="team-image" />
@@ -201,10 +203,10 @@ const Team = () => {
           </div>
 
           <div className="p1">
-            <div className="p1name">R1 NLT</div>
+            <div className="p1name">R1 NLT | modérateur</div>
             <div className="p1line"></div>
 
-            <img src={nlt} alt="Romu" className="manon-image" />
+            <img src={nlt} alt="Romu" className="team-image" />
 
             <div className="p1line"></div>
             <div className="p1info">
@@ -237,7 +239,7 @@ const Team = () => {
         <h2>Evenementiel</h2>
         <div className="audio-all">
           <div className="evenementiel1">
-            <div className="p1name">R1 Prince_Urkans</div>
+            <div className="p1name">R1 Prince_Urkans | streamer</div>
             <div className="p1line"></div>
             <div className="p1image">
               <img src={urkan} alt="R1 tatane" className="manon-image" />
@@ -286,7 +288,7 @@ const Team = () => {
 
         <div className="fortnite-all">
           <div className="p1">
-            <div className="p1name"> R1 Izzi</div>
+            <div className="p1name">R1 Izzi | joueur</div>
             <div className="p1line"></div>
             <div className="p1image">
               <img src={izzi} alt="R1 Izzi" className="team-image" />
@@ -325,7 +327,7 @@ const Team = () => {
           </div>
 
           <div className="p1">
-            <div className="p1name">R1 Lose</div>
+            <div className="p1name">R1 Lose | joueur</div>
             <div className="p1line"></div>
             <div className="p1image">
               <img src={lose} alt="R1 lose" className="team-image" />
@@ -367,7 +369,7 @@ const Team = () => {
           </div>
 
           <div className="p1">
-            <div className="p1name">R1 Daabz</div>
+            <div className="p1name">R1 Daabz | joueur</div>
             <div className="p1line"></div>
             <div className="p1image">
               <img src={dabbz} alt="R1 dabbz" className="team-image" />
@@ -410,7 +412,7 @@ const Team = () => {
           </div>
 
           <div className="p1">
-            <div className="p1name">R1 Gifted</div>
+            <div className="p1name">R1 Gifted | joueur</div>
             <div className="p1line"></div>
             <div className="p1image">
               <img src={gifted} alt="R1 Gifted" className="team-image" />
@@ -453,7 +455,7 @@ const Team = () => {
           </div>
 
           <div className="p1">
-            <div className="p1name">R1 Vexy Joueur</div>
+            <div className="p1name">R1 Vexy | joueur</div>
             <div className="p1line"></div>
             <div className="p1image">
               <img src={vexy} alt="R1 Gifted" className="team-image" />

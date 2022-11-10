@@ -1,6 +1,6 @@
 import React from "react";
 import "./news.css";
-import r1 from "../../images/R1.jpg";
+// import r1 from "../../images/R1.jpg";
 import Footer from "../../component/Footer/Footer";
 import Navbar from "../../component/navbar/Navbar";
 import Sidebar from "../../component/sidebar/Sidebar";
@@ -10,9 +10,9 @@ const News = () => {
     <>
       <Navbar />
       <Sidebar />
-      <div className="img">
+      {/* <div className="img">
         <img src={r1} alt="R1 Esports" className="img" />
-      </div>
+      </div> */}
       <main className="news">
         {/* <h1>news</h1> */}
         <h3>en cour de développement</h3>
