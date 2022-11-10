@@ -103,11 +103,24 @@ const Team = () => {
             </div>
             <div className="p1line"></div>
             <div className="p1info">
-              Kentin brejaud 20 ans, je suis rentré dans la R1 esport pour
-              pouvoir développer mon cast et mon expérience de streamer au sein
-              d’une équipe organisée, bien cadré et professionnel. Mes objectifs
-              dans l’avenir sont performer en tant que streamer chez la R1 et
-              performer dans le domaine du cast.
+              Je m’appelle Manon Chauvin, j’ai 20 ans et je suis graphiste
+              professionnelle et expérimentée, possédant mon auto-entreprise du
+              nom de PubliGraphique ayant 6 ans d’expérience dans le domaine du
+              graphisme. Spécialisée dans la conception d’identité visuelle /
+              charte graphique, je réalise aussi toutes sorte de supports/outils
+              de communication Print & Web. J’ai réalisé au cours des 6
+              dernières années des projets pour des clients professionnel(le)s
+              tels que la conception de leur identité, visuelle pour se
+              démarquer des autres, leurs affiches, flyers/ tracts pour la
+              visibilité de leurs services/produits, des vignettes web, et bien
+              d’autres ! Directrice AudioVisuel au sein de l’équipe e-sport R1,
+              ce rôle est important car je m’occupe de recruter des personnes
+              dans le pôle AudioVisuel tels que des graphistes monteur etc…
+              Etant expérimentée et professionnelle, je donnerai des conseils
+              pour permettre aux graphistes de s’améliorer et mieux gérer les
+              demandes. Mon rôle est aussi bien de gérer/organiser les projets
+              des joueurs, streamer, etc de la team pour donner du travail au
+              graphistes et monteur en fonction de la demande.
             </div>
             <div className="p1line2"></div>
             <div className="p1links">
@@ -158,9 +171,9 @@ const Team = () => {
           <div className="p1">
             <div className="p1name">R1 Romu Publicitaire</div>
             <div className="p1line"></div>
-            <div className="p1image">
-              <img src={romu} alt="Romu" className="team-image" />
-            </div>
+
+            <img src={romu} alt="Romu" className="team-image" />
+
             <div className="p1line"></div>
             <div className="p1info">
               Je me nome Romuald, 19 ans Publicitaire chez R1 eSport. Partager
@@ -190,9 +203,9 @@ const Team = () => {
           <div className="p1">
             <div className="p1name">R1 NLT</div>
             <div className="p1line"></div>
-            <div className="p1image">
-              <img src={nlt} alt="Romu" className="manon-image" />
-            </div>
+
+            <img src={nlt} alt="Romu" className="manon-image" />
+
             <div className="p1line"></div>
             <div className="p1info">
               Bonjour, je me présente je m'appelle Kyllian (alias NLT) j'ai 14

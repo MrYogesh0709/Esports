@@ -14,8 +14,9 @@ const News = () => {
         <img src={r1} alt="R1 Esports" className="img" />
       </div>
       <main className="news">
-        <h1>news</h1>
-        <h4>All News will be available here:</h4>
+        {/* <h1>news</h1> */}
+        <h3>en cour de développement</h3>
+        {/* <h4>All News will be available here:</h4>
         <div className="news-link">
           <a
             href="https://twitter.com/izziFTN/status/1586092723706003456/photo/1"
@@ -28,7 +29,7 @@ const News = () => {
               className="logo-reseaux"
             />
           </a>
-        </div>
+        </div> */}
       </main>
       <Footer />
     </>
