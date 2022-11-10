@@ -65,7 +65,15 @@ const Footer = () => {
           <Link to="/contact" style={{ color: "white" }}>
             Contact page
           </Link>
-          <p>r1esportcontact@gmail.com</p>
+
+          <p>
+            <a
+              href="mailto:r1esportcontact@gmail.com?subject=r1esports"
+              className="mail"
+            >
+              r1esportcontact@gmail.com
+            </a>
+          </p>
         </div>
       </div>
       <div className="line"></div>

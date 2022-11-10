@@ -52,6 +52,12 @@ ul {
 .social-links:active {
   color: green;
 }
+.mail {
+  color: var(--clr-primary-5);
+}
+.mail:hover {
+  color: var(--clr-primary-4);
+}
 
 @media screen and (min-width: 800px) {
   .footer {
