@@ -97,7 +97,7 @@ const Team = () => {
         <div className="evenementiel-all">
           <div className="evenementiel1">
             <div className="p1name">
-              Skiinya( Manon Chauvin) | directrice audiovisuelle
+              Manon Chauvin | Directrice Audiovisuelle
             </div>
             <div className="p1line"></div>
             <div className="p1image">
@@ -171,7 +171,7 @@ const Team = () => {
 
         <div className="president-all">
           <div className="p1">
-            <div className="p1name">R1 Romu Publicitaire | modérateur</div>
+            <div className="p1name">R1 Romu | Publicitaire</div>
             <div className="p1line"></div>
 
             <img src={romu} alt="Romu" className="team-image" />
@@ -203,7 +203,7 @@ const Team = () => {
           </div>
 
           <div className="p1">
-            <div className="p1name">R1 NLT | modérateur</div>
+            <div className="p1name">R1 NLT | Publicitaire</div>
             <div className="p1line"></div>
 
             <img src={nlt} alt="Romu" className="team-image" />
