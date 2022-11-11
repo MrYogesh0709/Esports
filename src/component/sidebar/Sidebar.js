@@ -36,7 +36,7 @@ const Sidebar = () => {
             </Link>
             <Link to="/recruitment">
               <li className="link-sidebar" onClick={closeSidebar}>
-                recruitment
+                Recrutement
               </li>
             </Link>
             <Link to="/contact">

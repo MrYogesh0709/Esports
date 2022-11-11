@@ -12,7 +12,7 @@ const Recruitment = () => {
       <Sidebar />
       <main className="recuirment">
         <img src={r2} alt="recuirment" />
-        <h1>Recruitment</h1>
+        <h1>Recrutement </h1>
         <h4>must visit this link for recuirment </h4>
         <h6>
           <a
