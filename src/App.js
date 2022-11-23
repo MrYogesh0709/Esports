@@ -6,6 +6,7 @@ import News from "./page/news/News";
 import Recruitment from "./page/recruitment/Recruitment";
 import Contact from "./page/contact/Contact";
 import Error from "./page/Error/Error";
+import Tournament from "./page/tournament/Tournament";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/news" element={<News />} />
         <Route path="/recruitment" element={<Recruitment />} />
+        <Route path="/tournaments" element={<Tournament />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
