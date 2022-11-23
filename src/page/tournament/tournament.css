@@ -1,0 +1,23 @@
+.tournament {
+  max-width: 85vw;
+  background-color: rgb(247, 250, 255);
+  margin: 2rem auto;
+  border: 1px solid blue;
+  border-radius: 0.2rem;
+  border: transparent;
+  padding: 1rem;
+  box-shadow: var(--dark-shadow);
+}
+
+.h2-tournament {
+  margin-bottom: 2rem;
+}
+.para-tournament {
+  color: black;
+  margin-top: 2rem;
+}
+
+.tournament > p::first-letter {
+  font-size: 1.7rem;
+  color: rgb(244, 122, 40);
+}
