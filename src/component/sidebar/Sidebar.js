@@ -39,6 +39,11 @@ const Sidebar = () => {
                 Recrutement
               </li>
             </Link>
+            <Link to="/tournaments">
+              <li className="link-sidebar" onClick={closeSidebar}>
+                tournament
+              </li>
+            </Link>
             <Link to="/contact">
               <li className="link-sidebar" onClick={closeSidebar}>
                 contact
